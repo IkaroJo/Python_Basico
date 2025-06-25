@@ -1,0 +1,56 @@
+Documentação da Sintaxe Básica do Python
+
+Dados:
+String - Str
+Integer - Int
+Float - Float
+Boolean - Bool
+
+Variávei: "Caixas" onde pode ser armazena que pdoem ser alterado no futuro
+Constante: Dados que nunca serão alterados
+
+Print = Mostrar na tela alguma infomração para o usuário 
+Input = Requisitar informação do usuário
+
+
+Ordem de precedência dos operadores em Python:
+
+    Parênteses ( ): Expressões dentro de parênteses são avaliadas primeiro. 
+    Exponenciação () :** Eleva um número à potência de outro. 
+    Multiplicação (), Divisão (/), e Módulo (%)*: Estes são avaliados na ordem em que aparecem, da esquerda para a direita. 
+    Adição (+) e Subtração (-): Também avaliados na ordem em que aparecem, da esquerda para a direita. 
+    Operadores de Comparação (==, !=, >, <, >=, <=): Retornam valores booleanos (True ou False). 
+    Operadores Lógicos (and, or, not): Avaliam condições e retornam um valor booleano. 
+
+    Operadores Aritméticos: 
+        + (Adição): Soma dois valores.
+        - (Subtração): Subtrai um valor de outro.
+        * (Multiplicação): Multiplica dois valores.
+        / (Divisão): Divide um valor por outro.
+        // (Divisão Inteira): Divide dois valores e retorna apenas a parte inteira do resultado.
+        % (Módulo): Retorna o resto da divisão de dois valores.
+        ** (Exponenciação): Eleva um valor à potência de outro.
+
+    Operadores de Comparação:
+        == (Igual a): Verifica se dois valores são iguais. 
+        != (Diferente de): Verifica se dois valores são diferentes. 
+        > (Maior que): Verifica se um valor é maior que outro. 
+        < (Menor que): Verifica se um valor é menor que outro. 
+        >= (Maior ou igual a): Verifica se um valor é maior ou igual a outro. 
+        <= (Menor ou igual a): Verifica se um valor é menor ou igual a outro. 
+
+
+Slice:
+
+    Um slice (fatia, em português) é uma técnica poderosa e concisa para extrair uma subsequência de uma sequência maior, como uma string, lista ou tupla. É como cortar uma fatia de um bolo, onde você pega apenas uma parte específica.
+
+Métodos de Strings:
+
+    capitalize(): Converte o primeiro caractere da string para maiúscula e os demais para minúscula.    
+    lower(): Retorna uma cópia da string com todos os caracteres em minúsculas.
+    upper(): Retorna uma cópia da string com todos os caracteres em maiúsculas.
+    strip([chars]): Remove os caracteres especificados (ou espaços em branco por padrão) do início e do final da string.
+    split([sep, maxsplit]): Divide a string em uma lista de substrings, usando o separador especificado (espaço por padrão).
+    join(iterable): Une os elementos de um iterável em uma string, usando a string original como separador.
+    replace(old, new[, count]): Substitui todas as ocorrências de old por new na string (opcionalmente, limita a quantidade de substituições com count).
+    find(sub[, start[, end]]): Retorna o índice da primeira ocorrência da substring sub na string (ou -1 se não encontrada). 

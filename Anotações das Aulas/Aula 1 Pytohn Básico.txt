@@ -1,0 +1,12 @@
+Aula 1: Pytohn Básico 
+
+Python é uma linguagem de propósito geral, fácil e intuitivo, multiplataforma, batteries inclued (O pacote instalado inicialmente já vem com muitas funções), open-source, é uma linguagem organizada, POO
+
+Zen of Python
+	Bonito é melhor que feio
+	Simples é melhor que complexo
+	Complexo é melhor que complicado
+	Legibilidade conta
+	Erros nunca devem passar silenciosamente
+	Agora é melhor que nunca...
+
