@@ -1,4 +1,5 @@
 from random import randint
+from time import sleep
 
 itens = ('Pedra', 'Papel', 'Tesoura')
 pc = randint(0, 2)
@@ -8,6 +9,11 @@ print(''' Suas opções:
 [ 2 ] Tesoura
 ''')
 jogador = int(input('Qual sua jogada? '))
+print('JO')
+sleep(1)
+print('KEN')
+sleep(1)
+print('POO!!')
 print('-='* 10)
 print('O jogador escolheu: {}'.format(itens[jogador]))
 
