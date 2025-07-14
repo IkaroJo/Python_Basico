@@ -14,6 +14,7 @@ sleep(1)
 print('KEN')
 sleep(1)
 print('POO!!')
+sleep(1)
 print('-='* 10)
 print('O jogador escolheu: {}'.format(itens[jogador]))
 
